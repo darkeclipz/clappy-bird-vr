@@ -1,5 +1,5 @@
 # clappy-bird-vr
-Clappy Bird VR - without clapping
+Clappy Bird VR - without clapping.
 
 As a coding challenge, we decided to make a Flappy Bird version in VR. The idea was to jump by clapping.
 
@@ -9,7 +9,7 @@ We didn't get the microphone to work because fuck Unity.
 
 ## Controls
 
-You can move up by pulling the `Right/Left Trigger`.
+You can move up by pulling the `Right/Left Trigger`. Do note that it is not the prettiest code.
 
 ## Code
 
