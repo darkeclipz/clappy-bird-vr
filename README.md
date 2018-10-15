@@ -1,7 +1,7 @@
 # clappy-bird-vr
 Clappy Bird VR - without clapping.
 
-As a coding challenge, we ([@johannesheesterman](https://github.com/johannesheesterman)) decided to make a Flappy Bird version in VR. The idea was to jump by clapping.
+As a one night coding challenge, we ([@johannesheesterman](https://github.com/johannesheesterman)) decided to make a Flappy Bird version in VR. The idea was to jump by clapping.
 
 ## Microphone
 
