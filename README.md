@@ -19,5 +19,7 @@ Unity creates a big project, [here you can find the code](https://github.com/dar
 
 ![screenshot1](clappy-bird-vr.PNG)
 ![screenshot2](clappy-bird-vr2.PNG)
+![screenshot3](screenshot1.png)
+![screenshot4](screenshot2.png)
 
 
