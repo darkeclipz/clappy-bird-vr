@@ -1,8 +1,12 @@
-﻿using System.Collections;
+﻿using Assets.Scripts;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class CubeController : MonoBehaviour {
+
+    private bool success;
+    public ScoreController score;
 
 	// Use this for initialization
 	void Start () {
@@ -21,6 +25,12 @@ public class CubeController : MonoBehaviour {
         if (np.x < -40f)
         {
             Destroy(gameObject);
+        }
+
+        if(!success && transform.position.x < -18.99f)
+        {
+            success = true;
+            score.incrementScore = true;
         }
     }
 }

@@ -42,6 +42,8 @@ public class ControllerInput : MonoBehaviour {
         {
             Jump();
         }
+
+        
     }
 
     public void Jump()
