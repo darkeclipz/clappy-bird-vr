@@ -11,6 +11,8 @@ namespace Assets.Scripts
     public class ScoreController : MonoBehaviour
     {
         private TextMesh text;
+        public TextMesh highscoreText;
+        private int highscore;
         public bool incrementScore;
         public bool resetScore;
 
@@ -25,6 +27,7 @@ namespace Assets.Scripts
         {
             text = GetComponent<TextMesh>();
             @as = GetComponent<AudioSource>();
+            highscoreText.text = "";
         }
 
         void Update()
@@ -32,6 +35,13 @@ namespace Assets.Scripts
             if(incrementScore)
             {
                 score += updateScore;
+
+                if (score > highscore)
+                {
+                    highscore = score;
+                    highscoreText.text = "Highscore: " + highscore.ToString();
+                }
+
                 incrementScore = false;
                 @as.PlayOneShot(successAudioClip);
             }
