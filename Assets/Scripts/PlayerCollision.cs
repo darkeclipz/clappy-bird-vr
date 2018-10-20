@@ -8,6 +8,14 @@ public class PlayerCollision : MonoBehaviour {
 
     public ScoreController Score;
 
+    void Update()
+    {
+        if(transform.position.x < -18.99)
+        {
+            transform.position = new Vector3(-18.99f, transform.position.y, transform.position.z);
+        }
+    }
+
     void OnCollisionEnter(Collision col)
     {
         Debug.Log("Collision with object: " + col.gameObject.name);
